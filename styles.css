@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(3, 73, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    padding: 0 5vw;
+    margin: 0;
+    box-sizing: boarder-box;
+   }
+
+#content {
+    position: relative;
+}
+
+#content img {
+    position: absolute;
+    top: -125px;
+    right: 200px;
+}
+
+header, footer {
+    color: white;
+    background: rgb(46, 3, 238);
+    padding: 10px 30px;
+
+}
+   
+h1 {
+    font-style: italic;
+    font-size: 4rem;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1, h2 {
+    
+    margin: 10px 0; 
+}
+
+h3 {
+    background-color: rgb(62, 129, 126);
+    color: white;
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+h4 {
+    background: linear-gradient(to right, rgb(111, 175, 89), white);
+    color: white;
+    padding: 8px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+h3, h4 {
+    margin: 30px 0 0;
+}
+
+p {
+    font-size: 18px;
+    width: 500px;
+}
+
+main {
+    background-color: white;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+.ulRight {
+    position: relative;
+    left: 500px;
+    top: -180px;
+}
+
+.ulLeft {
+    position: relative;
+    left: 0;
+}
+
+table {
+    color: #333
+}
+
+th {
+    text-align: center;
+    width: 100px;
+    padding: 8px;
+}
+
+td {
+    height: 80px;
+}
+
+th, tr:nth-child(even) {
+    background-color: #bbb;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.extra-space-below {
+    margin-bottom: 15px;
+}
+
+.bigger-text {
+    font-size: 1.2rem;
+}
+
+#special {
+    animation: color-change 2s infinite;
+}

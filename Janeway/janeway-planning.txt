@@ -1,0 +1,44 @@
+1. A Header: Contains the name and a brief tagline.
+2. An "About Me" Section: Includes a paragraph about themselves.
+3. A Skills Table: Displays a list of skills or tools with proficiency levels in a table
+format.
+4. A Contact Form: Allows visitors to send a message, including fields for the
+visitor's name, email, and message.
+
+
+1. Use semantic tags like <header>, <section>, and <footer> to organize the
+page.
+2. Create a table with appropriate headers (<th>), rows (<tr>), and cells (<td>).
+3. Add a form with labels, input fields, and a submit button. The form should
+use:
+1
+○ type="text" for the name field.
+○ type="email" for the email field.
+○ <textarea> for the message field.
+4. Use other relevant tags, such as <h1>, <p>, <ul>, or <img>, to enhance the
+design.
+
+
+HEADER 
+
+ARTICLE
+    SECTION 1: About Me
+    One of the most decorated captains in Starfleet, I grew up in Indiana. My father, a Vice Admiral, was everything I wanted to be. He raised me to never take anything at face value and to look at everything with the eye of a scientist. When I joined Starfleet I learned that, to be a good officer I have to keep an open mind. For my first command, I captained the USS Voyager. On my very first mission, Voyager and the Maqui ship we were following were pulled 70,000 light years across the galaxy. Facing a 70 year journey home, I harnessed the values my father taught me and the lessons I learned at the academy and throughout my career and vowed to my crew that I would get them home.
+
+    Section 2: Skills table
+        skills
+        proficiency levels
+
+    Section 3: Contact Form
+        name
+        email
+        message
+
+FOOTER
+
+IMAGES 
+<img src="./engineering.jpeg" alt="Chacotay and Janeway in Engineering">
+<img src="./janeway-coffee.jpg" alt="Captain Janeway drinking coffee" width="80">
+<img src="./science.jpg" alt="Infrared scan of crewmember" width="80">
+<img src="./racket.jpg" alt="Starfleet issue tennis racket" width="80">
+<img src="./janeway-smirk.jpg" alt="SCaptain Katherine Janeway" width="500">
